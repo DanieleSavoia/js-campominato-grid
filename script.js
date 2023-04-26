@@ -57,7 +57,7 @@ function createGrid(nCells, eleContainer) {
 		// aggiungere l'event listener alla cella appena creata
 		eleCell.addEventListener('click', function() {
 			console.log(this);
-			console.log('Hai cliccato ls cella ' + this.innerHTML)
+			console.log('Hai cliccato la cella ' + this.innerHTML)
 			this.classList.toggle('clicked');
 		});
 	}
